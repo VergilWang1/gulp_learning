@@ -1,0 +1,42 @@
+gulp是一个非常简单的前端代码优化工具
+gulp常用api:
+    1 gulp.task('', function(){}) 执行任务，task(‘任务名称’，[任务数组]，fn)
+    2 gulp.src() 简单理解就是根据路径找到对应的文件，src(‘路径’[，可选参数])；可以被pipe的到其他插件中
+    3 gulp.dest()输出到对应路径，能被pipe进来，dest(path[,options])
+    4 gulp.watch() 监听路劲文件的变化，执行相应的任务。gulp.watch(glob[, opts], tasks)
+gulp常用插件:
+    1.gulp-sass(sass编译)
+    2.gulp-compass(sass编译)
+    3.gulp-autoprefixer(添加CSS3前缀)
+    4.gulp-clean-css(压缩CSS)
+    5.gulp-include（文件包含）
+    6.gulp-concat(文件合并)
+    7.del(文件删除)
+    8.gulp-uglify(压缩js)
+    9.gulp.spritesmith(合成雪碧图)
+    10.run-sequence(队列执行)
+    11.browser-sync(浏览器同步刷新)
+    12.gulp-babel(js编译)
+    13.
+        gulp-imagemin(图片压缩)
+        gulp-imageisux(腾讯智图压缩，慎用)
+        imagemin-jpegtran(jpg图片压缩)
+        imagemin-pngquant(png图片压缩)
+        gulp-image-resize(图片大小调整)
+    14.gulp-rename(重命名)
+    15.gulp-live-server(轻量服务器)
+    16.gulp-livereload
+    17.gulp-util(工具集)
+    18.require-dir(引入整个文件夹文件)
+    19.connect-livereload(热更新同步)
+    20.gulp-if(是否运行插件)
+    21.gulp-plumber
+    22.gulp-eslint(eslint代码检查)
+    23.gulp-htmlmin(html压缩)
+    24.gulp-clean(删除文件/文件夹)
+    25.gulp-less
+    26.gulp-load-plugins(加载gulp插件)
+
+另外： 旁边的配置文件可能无法运行，需要自行修改需要运行的部分
+
+

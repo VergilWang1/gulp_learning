@@ -1,0 +1,100 @@
+<!--{%load static%}-->
+<!DOCTYPE html>
+<html ng-app="inspinia">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-Frame-Options" content="deny"> -->
+    <!-- Page title set in pageTitle directive -->
+    <title page-title>Y. SYS</title>
+
+    <!-- Font awesome -->
+    <link href="../../static/front/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+
+
+    
+
+    <!-- Bootstrap and Fonts -->
+    <link href="../../static/front/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main Inspinia CSS files -->
+    <link href="../../static/front/css/animate.css" rel="stylesheet">
+    <link id="loadBefore" href="../../static/front/css/style.css" rel="stylesheet">
+    <!-- <link id="loadBefore" href="../../static/front/css/froala_editor.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="../../static/front/js/kindeditor/themes/default/default.css">
+    <!-- <style id="antiClickjack">
+        body {
+            display: none !important;
+        }
+    </style>
+    <script>
+        if (self === top) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        } else {
+            top.location = self.location;
+        }
+    </script> -->
+</head>
+
+<!-- ControllerAs syntax -->
+<!-- Main controller with serveral data used in Inspinia theme on diferent view -->
+
+<body ng-controller="MainCtrl as main" class="skin-1">
+
+    <!-- Main view  -->
+    <div ui-view></div>
+
+    <!-- jQuery and Bootstrap -->
+    <!-- <script src="../../static/front/js/jquery/jquery-2.1.1.min.js"></script>
+    <script src="../../static/front/js/plugins/jquery-ui/jquery-ui.js"></script>
+    <script src="../../static/front/js/bootstrap/bootstrap.min.js"></script> -->
+
+    <!-- 编辑器插件 -->
+    <!-- <script src="../../static/front/js/froala_editor.min.js"></script>
+<script src="../../static/front/js/plugins/colors.min.js"></script> -->
+    <!-- <script src="../../static/front/js/kindeditor/kindeditor-all.js"></script> -->
+    <!-- <script src="../../static/front/js/kindeditor/lang/zh-CN.js"></script> -->
+    <!-- <script src=""></script> -->
+
+    <!-- MetsiMenu -->
+    <!-- <script src="../../static/front/js/plugins/metisMenu/jquery.metisMenu.js"></script> -->
+
+    <!-- SlimScroll -->
+    <!-- <script src="../../static/front/js/plugins/slimscroll/jquery.slimscroll.min.js"></script> -->
+
+    <!-- Peace JS -->
+    <!-- <script src="../../static/front/js/plugins/pace/pace.min.js"></script> -->
+
+    <!-- Custom and plugin javascript -->
+    <!-- <script src="../../static/front/js/inspinia.js"></script> -->
+
+
+
+    <!-- Main Angular scripts-->
+    <script src="../../static/front/js/angular/angular.min.js"></script>
+    <!-- <script src="../../static/front/js/plugins/oclazyload/dist/ocLazyLoad.min.js"></script> -->
+    <script src="../../static/front/js/ui-router/angular-ui-router.min.js"></script>
+    <!-- <script src="../../static/front/js/bootstrap/ui-bootstrap-tpls-1.1.2.min.js"></script> -->
+
+    <!--验证码-->
+    <!-- <script src="../../static/front/js/gVerify.js"></script> -->
+
+    <!--日期插件-->
+    <!-- <script src="../../static/front/js/laydate/laydate.js"></script> -->
+
+    <script src="../../static/front/js/normal.min.js"></script>
+    <!-- Anglar App Script -->
+    <!-- <script src="../../static/front/js/app.js"></script>
+    <script src="../../static/front/js/config.js"></script>
+    <script src="../../static/front/js/directives.js"></script>
+    <script src="../../static/front/js/controllers.js"></script>
+    <script src="../../static/front/js/service.js"></script> -->
+    <script src="../../static/front/js/all.min.js"></script>
+</body>
+
+</html>
